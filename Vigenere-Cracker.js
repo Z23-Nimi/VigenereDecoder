@@ -34,7 +34,7 @@ return result;
 }
 
 
-const cipherEl = document.getElementById('cipher');
+const cipherEl = LXFOPVEFRNHR;
 const keyEl = document.getElementById('key');
 const out = document.getElementById('plain');
 const btn = document.getElementById('decodeBtn');
