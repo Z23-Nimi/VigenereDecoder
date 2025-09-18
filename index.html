@@ -2,18 +2,16 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Vigenère Decoder — Terminal</title>
+<title>Vigenère Decoder</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <main class="card">
-<h1>Vigenère Decoder — Terminal Style</h1>
-<p class="hint">The ciphertext is hard-coded for now. Type a key (letters only) and press <strong>Decode</strong>.</p>
+<h1>Vigenère Decoder</h1>
+<p class="hint">Type a key (letters only) and press <strong>Decode</strong>.</p>
 
 
-<label for="cipher">Ciphertext (hard-coded)</label>
-<textarea id="cipher" rows="6" readonly> LXFOPVEFRNHR </textarea>
-
+<label for="cipher">Ciphertext: LXFOPVEFRNHR</label>
 
 <label for="key">Key (letters only)</label>
 <div class="row">
@@ -25,10 +23,7 @@
 <label for="plain">Plaintext</label>
 <pre id="plain" aria-live="polite">(decoded message will appear here)</pre>
 
-
-<div class="foot">Tip: use the key <strong>LEMON</strong> to decode the hard-coded ciphertext.</div>
 </main>
-
 
 <script src="Vigenere-Cracker.js"></script>
 </body>
