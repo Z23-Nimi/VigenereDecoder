@@ -1,0 +1,15 @@
+:root{font-family: 'Courier New', Courier, monospace}
+html,body{height:100%}
+body{display:flex;align-items:center;justify-content:center;margin:0;background:#000;color:#00ff41}
+.card{width:min(900px,96%);background:#06130b;border:1px solid rgba(0,255,65,0.08);border-radius:8px;padding:20px;box-shadow:0 8px 30px rgba(0,0,0,0.8)}
+h1{margin:0 0 10px;font-size:20px;color:#7cff7c}
+label{display:block;margin:10px 0 6px;font-size:13px;color:#9aff9a}
+textarea,input{width:100%;padding:10px;border-radius:6px;border:1px solid rgba(0,255,65,0.08);background:#011006;color:inherit;font-size:14px;outline:none}
+textarea[readonly]{opacity:0.95}
+.row{display:flex;gap:10px;align-items:center}
+.row>input[type=text]{flex:1}
+button{padding:10px 14px;border-radius:6px;border:1px solid rgba(0,255,65,0.12);background:#003400;color:#baffba;font-weight:700;cursor:pointer}
+button:hover{filter:brightness(1.08)}
+pre{white-space:pre-wrap;background:#00140a;padding:12px;border-radius:6px;border:1px solid rgba(0,255,65,0.05);overflow:auto}
+.foot{margin-top:10px;font-size:13px;color:#9aff9a}
+.hint{font-size:13px;color:#8cff8c}
