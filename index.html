@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Vigenère Decoder</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="card">
+<h1>Vigenère Decoder — type a key to decode</h1>
+<p class="hint">Paste the ciphertext below, enter a key (letters only), then press <strong>Decode</strong>. Non-letter characters are preserved.</p>
+
+
+<label for="cipher">Ciphertext</label>
+<textarea id="cipher" rows="6" placeholder="Paste ciphertext here...">LXFOPVEFRNHR</textarea>
+
+
+<label for="key">Key (letters only)</label>
+<div class="row">
+<input id="key" type="text" placeholder="e.g. KEY or LEMON" />
+<button id="decodeBtn">Decode</button>
+</div>
+
+
+<label for="plain">Plaintext</label>
+<pre id="plain" aria-live="polite">(decoded message will appear here)</pre>
+
+
+<div class="foot">Features: preserves case, ignores non-letters when advancing the key, works with A–Z only.</div>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
