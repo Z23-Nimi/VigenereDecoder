@@ -1,24 +1,23 @@
-<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Vigenère Decoder</title>
+<title>Vigenère Decoder — Terminal</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <main class="card">
-<h1>Vigenère Decoder — type a key to decode</h1>
-<p class="hint">Paste the ciphertext below, enter a key (letters only), then press <strong>Decode</strong>. Non-letter characters are preserved.</p>
+<h1>Vigenère Decoder — Terminal Style</h1>
+<p class="hint">The ciphertext is hard-coded for now. Type a key (letters only) and press <strong>Decode</strong>.</p>
 
 
-<label for="cipher">Ciphertext</label>
-<textarea id="cipher" rows="6" placeholder="Paste ciphertext here...">LXFOPVEFRNHR</textarea>
+<label for="cipher">Ciphertext (hard-coded)</label>
+<textarea id="cipher" rows="6" readonly> LXFOPVEFRNHR </textarea>
 
 
 <label for="key">Key (letters only)</label>
 <div class="row">
-<input id="key" type="text" placeholder="e.g. KEY or LEMON" />
+<input id="key" type="text" placeholder="e.g. LEMON" />
 <button id="decodeBtn">Decode</button>
 </div>
 
@@ -27,10 +26,10 @@
 <pre id="plain" aria-live="polite">(decoded message will appear here)</pre>
 
 
-<div class="foot">Features: preserves case, ignores non-letters when advancing the key, works with A–Z only.</div>
+<div class="foot">Tip: use the key <strong>LEMON</strong> to decode the hard-coded ciphertext.</div>
 </main>
 
 
-<script src="Vigenere-Cracker.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
