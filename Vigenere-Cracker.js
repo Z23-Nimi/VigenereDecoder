@@ -41,7 +41,7 @@ const btn = document.getElementById('decodeBtn');
 
 
 function decodeAndShow(){
-const c = cipherEl.value || '';
+const c = cipherEl.textContent.trim();
 const k = keyEl.value || '';
 out.textContent = vigenereDecrypt(c, k);
 }
